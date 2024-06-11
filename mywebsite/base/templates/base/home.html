@@ -1,0 +1,435 @@
+
+{% load static %}
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GARMS</title>
+    <link rel="stylesheet" href="{% static '/css/main.css'%}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="heading">
+            <div id="logo">
+                <img id="garms" src="{% static 'images/garms.svg'%}" alt="">
+            </div>
+            <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contato</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Suporte</a>
+                </li>
+              </ul>
+    </div>
+    <div id="master" class="container">
+        <div class="folha1">
+            <div class="row">
+            <div class="col-md-3">
+                <div id="fundo-blog" class="card card-body" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/guris.jpeg'%}" alt="">
+                    <br>
+                    <h4>É os gurih, não tem jeito!</h4>
+                    <p>"A regra é clara, ou corre com nois ou corre de nois"</p>
+                    <br>
+                    <br>
+                    <br>
+
+                    <p style="text-align: right;">do Grêmio, Guris - 2023</p>
+                </div>
+            </div>
+            <div  class="col-md-9">
+                <div id="fundo-blog" class="card card-body">
+                    <h4>Quem são os guris?</h4>
+                    <br>
+                    <p>Os Guris são um grupo de estudantes do curso de redes de computadores da ETEC de Embu, onde lá, além de estudarem sobre assuntos que seráo de suma importância para suas carreiras, se divertem a beça com altas trapalhadas em seu dia a dia. Uma dessas, está sendo o planejamento de TCC!</p>
+                    <br>
+                    <p>Em uma entrevista concebida por Murilo Weishaupt (O casado do grupo), a ideia do TCC consiste em criar uma infra com Terraform (Ferramenta que trabalha com IaC) para que assim eles possam criar um monitoramento de rede completo com Zabbix e montar um DashBoard com Grafana que os ajudará a entender o que se passa naquele ambiente. </p>
+                    <ul class="social-links">
+                        <li><img class="social" src="{% static 'images/facebook.png'%}" alt=""></li>
+                        <li><img class="social" src="{% static 'images/instagram.png'%}" alt=""></li>
+                        <li><a href="https://www.linkedin.com/in/jo%C3%A3oedesouza/details/projects/" target="_blank"><img class="social" src="{% static 'images/linkedin.png'%}" alt=""></li></a>
+                        <li><a href="https://youtu.be/72DtXUH-HFk" target="_blank"><img class="social" src="{% static 'images/youtube.png'%}" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+                </div>
+                <br>
+                <div class="row">
+            <div class="col-md-6">
+                <div id="fundo-blog" class="card card-body">
+                    <a href="https://www.vmware.com/explore/br/attend" target="_blank">
+                        <h3 id="vmware2023">VMWare 2023</h3>
+                    </a>
+                    <br>
+                    <img id="vmware" src="{% static 'images/vmware.jpeg'%}" alt="foto vmware">
+                    <br>
+                    <img id="vmware" src="{% static 'images/vmware2.jpeg'%}" alt="foto vmware">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div id="fundo-blog" class="card card-body">
+                    <h3>Como foi? </h3>
+                    <br>
+                    <p>Durante os dias 18 e 19 de Outubro, tivemos o prazer inestimável de participar do evento VMware Explore São Paulo 2023 que, acreditem, foi um evento muito transformador, de muito aprendizado, muito networking e muito divertido!</p>
+                    <p>A VMware não apenas reimaginou, mas também reinventou sua tradicional conferência VMworld, transformando-a no VMware Explore. Neste evento, juntamente com experts de todo o mundo, fomos colocados diretamente no epicentro do universo multi-cloud. Eu fiquei muito feliz quando na abertura do evento no palco principal, Jose Duarte, o Gerente Geral da VMware no Brasil, disse que essa segunda edição, marcava de vez o Brasil como um dos palcos principais aos olhos da VMware.</p>
+                    <p>Sem dúvidas, foi uma experiência única!</p>
+                    <br>
+                </div>
+            </div>
+                </div>
+                <br>
+                <div class="row">
+            <div class="col-md-3">
+                <div id="fundo-blog" class="card card-body">
+                    <h3>Redes de Computadores</h3>
+                    <br>
+            
+                    <p>O curso técnico EM REDES DE COMPUTADORES tem como objetivos capacitar o aluno para: Implantar e planejar de redes de computadores; Realizar manutenção da infraestrutura de redes; Prestar suporte de infraestrutura de redes; Especificar máquinas, ferramentas, acessórios e suprimentos necessários para dimensionar, montar e estruturar uma rede de computadores; Atuar no desenvolvimento de projetos de redes; Gerenciar e dar suporte à servidores; Prestar suporte básico em segurança de redes; Implementar conceitos de segurança em serviços; Realizar o gerenciamento de redes locais e redes de longa distância; Criar Scripts de configuração e gerenciamento de servidores; Gerenciar e configurar dispositivos de redes.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div id="fundo-blog" id="etec" class="card card-body">
+                    <a class="link-etec" href="https://www.vestibulinhoetec.com.br/home/"><h3>Vestibulinho ETEC!</h3></a>
+                    <br>
+                    <p>Venha fazer parte de uma das melhores Instituições Técnicas de Embu das Artes e seja um Etequiano!</p>
+                    <img  src="{% static 'images/etec.png'%}" alt="">
+                    <br>
+                    <br>
+                    <h4>ETEC - O que é?</h4>
+                    <br>
+                    <p>A Escola Técnica Estadual (ETEC) é um programa governamental que objetiva a formação de profissões de nível técnico. Logo, se você já terminou ou está terminando o ensino médio, ela surge como opção para buscar melhores condições de vida</p>
+                    <p>Mais de 228 mil alunos estão matriculados nas ETECs entre os cursos técnicos, integrados e de nível médio.</p>
+            </div>
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="blog">
+        <div class="folha">
+            <div class="imgs-conteudo">
+                <div class='calabocajoao'>
+                    <img id='img-python-django'  src="{% static 'images/logo-python-django.png'%}" alt="">
+                    <img id='adicao'  src="{% static 'images/adicao.png'%}" alt="">
+                    <img id='img-aws'  src="{% static 'images/aws.png'%}" alt="">
+            </div>
+            </div>
+                <br>
+                <h2>Introdução</h2>
+                <br>
+                <p>Nosso trabalho vem a ser uma coletania e explicação de duas tecnologias muito interessantes e de suma importância para o mercado de trabalho. Sendo ferramentas muitos poderosas para construir aplicações e integra-las em sistemas de nuvem.
+                </p>
+                <br>
+        </div>
+        <br>
+        <div class="folha">
+            <div class="integrantes">
+                <h2>Integrantes</h2>
+                <br>
+                <h4>Gabriel Soares</h4>
+                <h4>João Emanuel</h4>
+                <h4>Mateus Sousa</h4>
+                <h4>Murilo Weishaupt</h4>
+                <h4>Rai Lucas</h4>
+                <h4>Ryan Amaral Moreno</h4>
+                <h4>Victor Hugo</h4>
+                <h4>Weverson Pereira</h4>
+            </div>
+            <br>
+            <hr>
+            <h2 id='aws'>AWS</h2>
+            <br>
+            <h2>O que é?</h2>
+            <br>
+            <p>A Amazon Web Services (AWS) é a plataforma de nuvem mais adotada e mais abrangente do mundo, oferecendo mais de 200 serviços completos de datacenters em todo o mundo. Milhões de clientes, incluindo as startups que crescem mais rápido, as maiores empresas e os maiores órgãos governamentais, estão usando a AWS para reduzir custos, ganhar agilidade e inovar mais rapidamente.</p>
+            <br>
+            <div class="fundo-amazon-ws"><img id="amazon-ws" src="{% static 'images/amazon-ws.png'%}" alt=""></div>
+            <h2>Um pouco de história</h2>
+            <br>
+            <p>
+                As origens da plataforma datam de 2002, quando os primeiros serviços foram testados em fase beta — na época, o nome dessa estrtutura era Amazon.com Web Service. A ideia era experimentar a comercialização de ferramentas e infraestrutura para desenvolvedores.
+                Lançado oficialmente em 2006, Amazon Web Services é um provedor de serviços online para websites ou aplicações cliente servidor baseado nas nuvens. A maioria destes serviços não é acessível pela internet, mas oferecem funcionalidades que outros desenvolvedores podem usar em suas aplicações. Amazon Web Services pode ser acessado usando HTTP, protocolo REST, estilo de arquitetura ou pelo protocolo SOAP. O modelo de cobrança pelos serviços é de acordo com o uso.
+            </p>
+            <br>
+            <img id="aws-console" src="{% static 'images/aws-console.jpg'%}" alt="">
+        </div>
+        <hr>
+        <div class="folha">
+            <h2 class="sub-title">Alguns Principais clientes da AWS</h2>
+            <br>
+            <div id="client" class="imgs-clientes">
+                <img id="img-netflix"  src="{% static 'images/logotipo-da-netflix.jpg'%}" alt="">
+                <img id="img-coca"  src="{% static 'images/cocacola-logo.jpg'%}" alt="">
+                <img id="img-epic"  src="{% static 'images/epic-games-logo.jpg'%}" alt="">
+            </div>
+            <br>
+            <p><b>Netflix:</b>Utiliza AWS para transmitir bilhões de horas de conteúdo a milhões de membros em todo o mundo. AWS é fundamental para a escalabilidade e disponibilidade do serviço de streaming.</p>
+            <br>
+            <p><b>Coca-Cola:</b>A Coca-Cola utiliza AWS para otimizar suas operações de TI, gerenciar dados de marketing e melhorar a experiência do cliente através de análise de dados e soluções digitais.</p>
+            <br>
+            <p><b>Epic Games:</b>A AWS auxilia a Epic Games ao fornecer infraestrutura escalável e de alto desempenho, essencial para suportar milhões de jogadores simultâneos em jogos como Fortnite.</p>
+        </div>
+        <hr>
+        <br>
+        <div class="folha">
+            <h2><span id="aws-color"><b>AWS</b></span> x Outras Clouds</h2>
+            <br>
+                <h4 id="vant">Vantagens</h4>
+            <br>
+            <ul class="lis">
+                <li>• Fornece a maioria dos serviços, desde redes até robôs</li>
+                <br>
+                <li>• Mais maduro</li>
+                <br>
+                <li>• Considerado o melhor em confiabilidade e segurança</li>
+                <br>
+                <li>• Mais capacidade computacional que Azure e GCP</li>
+            </ul>
+            <br>
+            <h4 id="desvan">Desvantagens</h4>
+            <br>
+            <ul class="lis">
+                <li>• Curva de aprendizagem mais complicada</li>
+                <br>
+                <li>• Expertise Necessária</li>
+            </ul>
+        </div>
+        <hr>
+        <div class="folha">
+            <img id="treino-aws-2" src="{% static 'images/certifica-aws.png'%}" alt="">
+            <img id="treino-aws" src="{% static 'images/treino-aws.png'%}" alt="">
+            <h3>Treinamentos e Certificações</h3>
+            <br>
+            <p>As certificações e treinamentos da AWS são fundamentais para capacitar profissionais e organizações em tecnologia de nuvem. Oferecendo uma variedade de certificações reconhecidas globalmente e programas de treinamento abrangentes, a AWS permite que indivíduos e equipes adquiram habilidades essenciais para utilizar seus serviços e recursos com eficácia. Esses recursos são essenciais para quem está começando na nuvem ou buscando avançar na carreira de computação em nuvem.</p>
+            <br>
+            <h4>Treinamentos</h4>
+            <br>
+            <p><b>AWS re/Start:</b> é um programa de treinamento de desenvolvimento de força de trabalho baseado em coorte que prepara indivíduos para carreiras na nuvem e os conecta a empregadores em potencial. Não é necessário um histórico em tecnologia para se inscrever. O programa é gratuito para o aluno e focado em ajudar pessoas desempregadas ou subempregadas a iniciar uma nova carreira. As organizações colaboradoras do AWS re/Start apoiam grupos sub-representados, minorias, indivíduos deslocados, jovens e muito mais.</p>
+            <br>
+            <img id="aws-restart" src="{% static 'images/aws-restart.jpg'%}" alt="">
+            <br>
+            <br>
+            <p><b>LINUXtips:</b> Sempre estamos focados em oferecer um treinamento de qualidade e atualizado, e o mais importante, que nossos alunos estejam aprendendo da melhor forma. Estamos atentos a nossa sociedade e principalmente em nossas comunidades, tentando fortalecer e torná-la maior e </p>
+            <br>
+            <img id="linuxtips" src="{% static 'images/linuxtips.jpg'%}" alt="">
+            <hr>
+            
+            <h4 id="cert-title">Certificações</h4>
+            <p>A AWS oferece dois tipos de certificações que se enquadram em duas categorias principais: Certificações Principais (core) e Certificações Especialistas.
+            As Certificações Principais (core) abrangem três áreas de conhecimento: arquitetura, desenvolvimento e operações, e são oferecidas em três níveis de qualificação: Fundamentos, Associado e Profissional.</p>
+            <img id="cert-aws" src="{% static 'images/cert-aws.png'%}" alt="">
+            <h4>Método de Cobrança</h4>
+            <br>
+            <p><b>Pay as you go em nuvem (PAYG)</b> ou Pay Per Use são termos que definem um método de pagamento por serviços de cloud computing pelo uso. Diferente, portanto, das tradicionais mensalidades e pacotes associados a um conjunto de ferramentas fixo, contratado por usuários de tecnologia.</p>
+        </div>
+
+            <br>
+            <div class="folha3">
+                <h4>Principais serviços</h4>
+                <br>
+                <h5 id="iaas">Infraestrutura como Serviço (IAAS)</h5>
+                <div class="services-aws">
+                    <p><b>Amazon EC2</b> (Elastic Compute Cloud): permite criar e executar máquinas virtuais na nuvem</p>
+                    <img id="ec2" src="{% static 'images/ec2.png'%}" alt="">
+                </div>
+                <div class="services-aws" id="s3-div">
+                    <p><b>Amazon S3</b> (Simple Storage Service): serviço de armazenamento em nuvem escalável e altamente disponível</p>
+                    <img id="s3" src="{% static 'images/s3.png'%}" alt="">
+                </div>
+                <div class="services-aws" id="ebs-div">
+                    <p><b>Amazon EBS</b> (Elastic Block Store): fornece armazenamento em nível de bloco para uso com instâncias do Amazon EC2</p>
+                    <img id="s3" src="{% static 'images/ebs.png'%}" alt="">
+                </div>
+                <br>
+                <br>
+                <h5 id="iaas">Plataforma como Serviço (PAAS)</h5>
+                <div class="services-aws">
+                    <p><b>AWS Elastic Beanstalk</b>: permite implantar e gerenciar aplicativos da web e serviços em vários idiomas</p>
+                    <img id="beans" src="{% static 'images/beanstalk.png'%}" alt="">
+                </div>
+                <div class="services-aws" id="s3-div">
+                    <p><b>AWS Lambda</b>: permite executar código sem servidor em resposta a eventos, com escalabilidade e disponibilidade automáticas</p>
+                    <img id="s3" src="{% static 'images/lambda.png'%}" alt="">
+                </div>
+                <div class="services-aws" id="ebs-div">
+                    <p><b>Amazon EKS (Elastic Kubernetes Service)</b>: permite executar aplicativos Kubernetes gerenciados na AWS</p>
+                    <img id="s3" src="{% static 'images/eks.jpg'%}" alt="">
+                </div>
+                <br>
+                <br>
+                <br>
+                <h5 id="iaas">Software como Serviço (SAAS)</h5>
+                <div class="services-aws" id="ebs-div">
+                    <p><b>Amazon WorkSpaces:</b> serviço de desktop virtual que permite acessar aplicativos, recursos e dados de qualquer dispositivo</p>
+                    <img id="s3" src="{% static 'images/workspace.png'%}" alt="">
+                </div>
+                <div class="services-aws" id="ebs-div">
+                    <p><b>Amazon AppStream 2.0</b>: oferece streaming de aplicativos de desktop da AWS para dispositivos de qualquer natureza</p>
+                    <img id="s3" src="{% static 'images/appstream.png'%}" alt=""></div>
+                        <br>
+            </div>
+        <br>
+        <br>
+        <br>
+        <div class="folha-django">
+            <h1 id="djanguin">DJANGO</h1>
+            <br>
+            <div id="fundo-python">
+                <img id="django-python" src="{% static 'images/logo-python-django.png'%}" alt=""></div>
+            <br>
+            <br>
+            <h2>O que é?</h2>
+            <br>
+            <p>O Django é um framework web Python de código aberto, que se destaca por oferecer um ambiente que simplifica a criação de soluções web escaláveis, ao mesmo tempo, em que promove o desenvolvimento rápido e um design limpo, proporcionando ferramentas robustas e eficientes para pessoas desenvolvedoras.</p>
+            <hr>
+            <br>
+            <h2>O que é um Framework?</h2>
+            <br>
+            <p>
+                Um framework é um conjunto de ferramentas, bibliotecas e convenções pré-definidas que fornecem uma estrutura para desenvolver software. Ele oferece um esqueleto ou uma base sobre a qual os desenvolvedores podem construir suas aplicações, fornecendo soluções genéricas para problemas comuns. Em suma, um framework simplifica o processo de desenvolvimento ao fornecer funcionalidades prontas e padronizadas, permitindo que os desenvolvedores se concentrem mais na lógica específica da aplicação do que em questões técnicas mais básicas. Isso economiza tempo e esforço, aumentando a eficiência e a consistência do desenvolvimento de software.</p>
+            <br>
+            <h3>Tipos de Frameworks</h3>
+            <br>
+            <div class="frameworks">
+                <div class="framework-python">
+                    <h3 class="frame"><b>Python</b></h3>
+                    <br>
+                    <img id='logo-django' src="{% static 'images/djan-logo.png'%}" alt="">
+                </div>
+                <div class="framework-js">
+                    <h3 class="frame-js"><b>JavaScript</b></h3>
+                    <br>
+                    <img id="logo-js-frame" src="{% static 'images/framework-js.png'%}" alt="">
+                </div>
+                <div class="framework-java">
+                    <h3 class="frame-java"><b>Java</b></h3>
+                    <br>
+                    <br>
+                    <img id="logo-spring" src="{% static 'images/spring.png'%}" alt="">
+                </div>
+                <div class="framework-csharp">
+                    <h3 class="frame-csharp"><b>C#</b></h3>
+                    <br>
+                    <img id="logo-csharp" src="{% static 'images/net-framework.png'%}" alt="">
+                </div>
+            </div>
+            <hr>
+            <br>
+            <br>
+            <h2>Como o Django surgiu?</h2>
+            <img id="cod-django" src="{% static 'images/cod-django.png'%}" alt="">
+            <p> Ele surgiu originalmente em 2003, quando os desenvolvedores Adrian Holovaty e Simon Willison começaram a usar Python para construir aplicações web no jornal Lawrence Journal-World. Eles perceberam que havia uma quantidade significativa de código que podia ser reutilizado em diferentes projetos, então começaram a criar um conjunto de ferramentas para agilizar o processo de desenvolvimento.</p>
+            <hr>
+            <br>
+            <h3>Pra que serve o Django?</h3>
+            <p>O Django é um framework que fornece um conjunto abrangente de ferramentas e componentes pré-construídos que simplifica e acelera a criação de aplicações web robustas, escaláveis e seguras.</p>
+            <ul>
+                <br>
+                <div class="utilidades">
+                    <div class="util-django">
+                        <h3> Criação de sites e aplicações web</h3>
+                    </div>
+                    <div class="util-django">
+                        <h3>Plataformas de redes sociais</h3>
+                    </div>
+                    <div class="util-django">
+                        <h3>Aplicações backend para aplicativos mobile</h3>
+                    </div>
+                    <div class="util-django">
+                        <h3>Construção de APIs</h3>
+                    </div>
+                </div>
+            </ul>
+            <br>
+            <br>
+            <h3 id="app-django">Principais Apps Feitos em Django</h3>
+            <br>
+            <div class="aplications">
+                <div class="app-django-insta">
+                    <img class="app-float" id="insta-django" src="{% static 'images/instagram-django.png'%}" alt="">
+                    <p class="app-texto">Instagram</p>
+                </div>
+                <div class="app-django-spotify">
+                    <img id="insta-django" src="{% static 'images/spotify.png'%}" alt="">
+                    <p class="app-texto">Spotify</p>
+                </div>
+                <div class="app-django-youtube">
+                    <img id="insta-django" src="{% static 'images/youtube-django.png'%}" alt="">
+                    <p class="app-texto">Youtube</p>
+                </div>
+                <div class="app-django-dropbox">
+                    <img id="insta-django" src="{% static 'images/dropbox.png'%}" alt="">
+                    <p class="app-texto">Dropbox</p>
+                </div>
+                <div class="app-django-pinterest">
+                    <img id="insta-django" src="{% static 'images/pinterest.png'%}" alt="">
+                    <p class="app-texto">Pinterest</p>
+                </div>
+            </div>
+            <hr>
+            <br>
+            <h2>Arquitetura MVT (Models, View, Templates)</h2>
+            <br>
+            <p>A arquitetura <b>MVT</b> (Model-View-Template) é um padrão de arquitetura de software usado em frameworks de desenvolvimento web, como Django (Python). É uma variação do padrão MVC (Model-View-Controller), com algumas diferenças conceituais.</p>
+            <br>
+            <div class="fundo-mvt"><img src="{% static 'images/mvt.png'%}" alt=""></div>
+            <br>
+            <p><b>Models: </b>Um “Model” é a fonte única e definitiva de informações sobre seus dados. Ele contém os campos e comportamentos essenciais dos dados que você está armazenando. É a camada relacionada ao banco de dados.</p>
+            <br>
+            <p><b>View: </b>É uma função Python que recebe uma solicitação da Web e retorna uma resposta da Web. Essa resposta pode ser o conteúdo HTML de uma página da Web, ou um redirecionamento, ou um erro 404, ou um documento XML, ou uma imagem… ou qualquer coisa, realmente.</p>
+            <br>
+            <p><b>Templates: </b>É a camada de apresentação que define a interface do usuário. Os templates são arquivos HTML que incluem tags e filtros do Django para gerar conteúdo dinâmico. Eles são responsáveis por renderizar os dados fornecidos pelas views e apresentá-los ao usuário final de forma formatada e estilizada.</p>
+            <hr>
+            <br>
+            <h2>ORM (Object-Relational Mapping)</h2>
+            <br>
+            <p>É a camada de abstração que facilita a interação com o banco de dados relacional através de objetos Python. Com o ORM do Django, você pode definir modelos de dados usando classes Python, onde cada atributo da classe representa um campo na tabela do banco de dados.</p>
+            <p>Ele separa a lógica de banco de dados da lógica de negócios. Além disso, ele permite que você trabalhe com dados em um formato nativo de objetos Python, o que é mais intuitivo e fácil de trabalhar.</p>
+            <br>
+            <h3>Quais são?</h3>
+            <br>
+            <p>Quando se trata de escolher um ORM, existem várias opções para Python. As mais populares são:</p>
+            <ul>
+                <br>
+                <div class="utilidades">
+                    <div class="util-django">
+                        <h3>SQLAlchemy</h3>
+                    </div>
+                    <div class="util-django">
+                        <h3>Django ORM</h3>
+                    </div>
+                    <div class="util-django">
+                        <h3>Peewee</h3>
+                    </div>
+                    <div class="util-django">
+                        <h3>Pony ORM</h3>
+                    </div>
+                    <div class="util-django">
+                        <h3>Tortoise-ORM</h3>
+                    </div>
+                </div>
+            </ul>
+            <hr>
+            <h2>Conclusão</h2>
+            <br>
+            <p>Em conclusão, a combinação do framework Django e a plataforma de nuvem AWS oferece uma poderosa e flexível infraestrutura para o desenvolvimento e implantação de aplicativos web escaláveis e de alto desempenho.</p>
+            <br>
+            <p>Ao integrar o Django com a AWS, os desenvolvedores podem aproveitar o poder e a flexibilidade de ambos os recursos. Por exemplo, eles podem implantar seus aplicativos Django em instâncias EC2, usar o Amazon RDS para gerenciar bancos de dados relacionais de forma escalável e confiável, e usar serviços como o Amazon S3 para armazenar arquivos estáticos e mídia.</p>
+        </div>
+    </div>
+    </div>
+    <footer id="footer">
+        <p>© 2024 Copyright By: Os Guris</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,700 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(180deg, hsla(220, 100%, 50%, 1) 0%, hsla(212, 82%, 69%, 1) 100%);
+}
+
+
+.heading {
+    background-color: rgb(33, 33, 61);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    box-shadow: 5px 5px 10px black;
+}
+
+#fundo-blog {
+    background-color: rgb(33, 33, 61);
+    color: white;
+    padding: 4%;
+}
+
+#garms {
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 3px;
+
+}
+
+#logo {
+    margin-left: 25%;
+}
+
+.nav a {
+    color: white;
+}
+
+.nav a {
+    color: rgb(0, 174, 255);
+}
+
+.nav-item {
+    color: white;
+    text-align: right;
+    text-decoration: none;
+}
+
+.links {
+    text-align: left;
+    margin-right: 20px;
+}
+
+#master {
+    margin-top: 30px;
+}
+
+#profile-wrapper {
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.social-links ul, li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.social {
+    width: 40px;
+    height: 40px;
+}
+
+
+#profile-pic {
+    width: 230px;
+    height: 120px;
+    border-radius: 2%;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#vmware2023 {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+#vmware2023:hover {
+    color: rgb(0, 140, 255);
+    text-decoration: none;
+    transition: 0.5s;
+    
+}
+
+
+.link-etec {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.link-etec:hover {
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+    transition: 0.5s;
+}
+
+#vmware {
+    border: 2px solid blue;
+    margin: auto;
+    width: 290px;
+    height: 180px;
+}
+
+.blog {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 70px;
+    background-color: rgba(14, 40, 187, 0.767);
+    margin: 30px;
+    text-align: left;
+    color: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.integrantes {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.calabocajoao {
+    text-align: center;
+}
+
+.imgs-conteudo {
+    margin: auto;
+    display: inline-block;
+    background-color: rgb(61, 71, 104);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}
+
+#img-python-django {
+    width: 40%;
+}
+
+#adicao {
+    width: 10%;
+}
+
+#img-aws {
+    width: 40%;
+}
+
+#aws {
+    color: rgb(255, 153, 0);
+    text-align: center;
+    font-weight: bold;
+}
+
+#aws-color {
+    color: rgb(255, 153, 0);
+
+}
+
+#amazon-ws {
+    width: 60%;
+}
+
+.fundo-amazon-ws {
+    max-width: 70%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+#aws-console {
+    width: 90%;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.imgs-clientes {
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#img-netflix {
+    width: 30%;
+    margin: 1%;
+    border-radius: 20px;
+}
+
+#img-coca {
+    width: 25%;
+    margin: 1%;
+    border-radius: 20px;
+}
+
+#img-epic {
+    width: 30%;
+    margin: 1%;
+    border-radius: 20px;
+}
+
+
+#aws-restart {
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#linuxtips {
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+#cert-aws {
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+h4 {
+    text-align: center;
+}
+
+#vant {
+    font-weight: bold;
+    color: greenyellow;
+} 
+
+#desvan {
+    font-weight: bold;
+    color: rgb(245, 84, 84);
+} 
+
+.lis {
+    text-align: center;
+}
+
+#iaas {
+    margin-bottom: 30px;
+
+}
+
+.services-aws {
+    text-align: center;
+    display: inline-block;
+    max-width: 250px;
+    padding: 8px;
+    background-color: rgb(66, 66, 128);
+    border: 1px solid rgb(19, 19, 63);
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 15px;
+    height: 340px;
+}
+
+#s3 {
+    width: 50%;
+
+}
+#beans {
+    width: 60%;
+}
+
+#treino-aws {
+    float: right;
+    width: 8%;
+    margin-right: 2%;
+    margin-bottom: 15px;
+}
+
+#treino-aws-2 {
+    float: right;
+    width: 6%;
+    margin-right: 1%;
+    margin-bottom: 15px;
+}
+
+#certifica-aws {
+    float: right;
+    width: 8%;
+    margin-right: 10%;
+    margin-bottom: 15px;
+}
+
+#cert-title {
+    margin-bottom: 40px;
+}
+
+.folha {
+    background-color: rgb(33, 33, 61);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.folha1 {
+    background-color: rgba(14, 40, 187, 0.767);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+.folha3 {
+    background-color:  rgb(33, 33, 61);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    font-size: 15px;
+    padding: 5%;
+}
+
+#djanguin {
+    font-weight: bold;
+    text-align: center;
+}
+
+#django-python {
+    width: 90%;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+#fundo-python {
+    background: linear-gradient(360deg, hsla(220, 100%, 50%, 1) 0%, rgb(217, 255, 0) 100%);
+    border-radius: 20px;
+}
+
+
+.folha-django {
+    background-color:  rgb(14, 37, 8);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    font-size: 15px;
+    padding: 5%;
+}
+
+#logo-django {
+    width: 90%;
+}
+
+#logo-js-frame {
+    width: 90%;
+}
+
+#logo-spring {
+    width: 90%;
+}
+
+#logo-csharp {
+    width: 90%;
+}
+
+.frame-js {
+    color: yellow;
+}
+
+.frame-java {
+    color: orange;
+}
+
+.frameworks {
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.framework-python {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 2%;
+    border-radius: 20px;
+    color: black;
+    background-color: rgb(255, 238, 0);
+    max-width: 30%;
+    text-align: center;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.framework-python:hover {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 2%;
+    border-radius: 20px;
+    color: black;
+    background-color: rgb(177, 165, 2);
+    max-width: 30%;
+    text-align: center;
+    height: 200px;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+
+.framework-js {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 2%;
+    border-radius: 20px;
+    background-color: rgb(179, 4, 4);
+    max-width: 30%;
+    text-align: center;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.framework-js:hover {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 2%;
+    border-radius: 20px;
+    background-color: rgb(126, 3, 3);
+    max-width: 30%;
+    text-align: center;
+    height: 200px;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+
+.framework-java {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 2%;
+    border-radius: 20px;
+    background-color: rgb(0, 9, 129);
+    max-width: 30%;
+    text-align: center;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.framework-java:hover {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 2%;
+    border-radius: 20px;
+    background-color: rgb(0, 6, 87);
+    max-width: 30%;
+    text-align: center;
+    height: 200px;
+    margin-bottom: 20px;
+    transition: .5s;
+    
+}
+
+.framework-csharp {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 2%;
+    border-radius: 20px;
+    background-color: rgb(61, 1, 129);
+    max-width: 30%;
+    text-align: center;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.framework-csharp:hover {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 2%;
+    border-radius: 20px;
+    background-color: rgb(34, 1, 71);
+    max-width: 30%;
+    text-align: center;
+    height: 200px;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+
+.utilidades {
+    margin-left: 20%;
+}
+
+#cod-django {
+    width: 50%;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.util-django {
+    background-color: rgb(4, 65, 65);
+    max-width: 75%;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.util-django:hover {
+    background-color: rgb(10, 131, 131);
+    max-width: 75%;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: .5s;
+}
+
+#apps-django {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    border-radius: 20px;
+}
+
+#app-django {
+    text-align: center;
+}
+
+.aplications {
+    margin: auto;
+    display: block; 
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(14, 27, 2);
+    border-radius: 20px;
+
+}
+
+.app-django-insta {
+    display: inline-block;
+    text-align: center;
+    margin-right: 2%;
+    border-radius: 20px;
+    background-color: rgb(114, 13, 128);
+    padding: 10px;
+    max-width: 150px;
+    height: 200px;
+}
+
+.app-django-insta:hover {
+    display: inline-block;
+    text-align: center;
+    margin-right: 2%;
+    border-radius: 20px;
+    background-color: rgb(174, 21, 194);
+    padding: 10px;
+    max-width: 150px;
+    height: 200px;
+    transition: .5s;
+}
+
+.app-django-spotify {
+    display: inline-block;
+    text-align: center;
+    margin-right: 2%;
+    border-radius: 20px;
+    background-color: rgb(46, 121, 11);
+    padding: 10px;
+    max-width: 150px;
+    height: 200px;
+}
+
+.app-django-spotify:hover {
+    display: inline-block;
+    text-align: center;
+    margin-right: 2%;
+    border-radius: 20px;
+    background-color: rgb(69, 177, 18);
+    padding: 10px;
+    max-width: 150px;
+    height: 200px;
+    transition: .5s;
+}
+
+
+.app-django-youtube {
+    display: inline-block;
+    text-align: center;
+    margin-right: 2%;
+    border-radius: 20px;
+    background-color: rgb(121, 32, 10);
+    padding: 10px;
+    max-width: 150px;
+    height: 200px;
+}
+
+.app-django-youtube:hover {
+    display: inline-block;
+    text-align: center;
+    margin-right: 2%;
+    border-radius: 20px;
+    background-color: rgb(179, 48, 16);
+    padding: 10px;
+    max-width: 150px;
+    height: 200px;
+    transition: .5s;
+}
+
+.app-django-dropbox {
+    display: inline-block;
+    text-align: center;
+    margin-right: 2%;
+    border-radius: 20px;
+    background-color: rgb(13, 49, 146);
+    padding: 10px;
+    max-width: 150px;
+    height: 200px;
+}
+
+.app-django-dropbox:hover {
+    display: inline-block;
+    text-align: center;
+    margin-right: 2%;
+    border-radius: 20px;
+    background-color: rgb(18, 68, 204);
+    padding: 10px;
+    max-width: 150px;
+    height: 200px;
+    transition: .5s;
+}
+
+.app-django-pinterest {
+    display: inline-block;
+    text-align: center;
+    margin-right: 2%;
+    border-radius: 20px;
+    background-color: rgb(146, 13, 13);
+    padding: 10px;
+    max-width: 150px;
+    height: 200px;
+}
+
+.app-django-pinterest:hover {
+    display: inline-block;
+    text-align: center;
+    margin-right: 2%;
+    border-radius: 20px;
+    background-color: rgb(207, 18, 18);
+    padding: 10px;
+    max-width: 150px;
+    height: 200px;
+    transition: .5s;
+}
+
+
+#insta-django {
+    max-width: 100px;
+}
+
+.app-texto {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fundo-mvt {
+    text-align: center;
+    max-width: 90%;
+    background-color: rgb(186, 240, 208);
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 20px;
+    
+}
+
+#footer {
+    margin-bottom: -30px;
+    padding: 5px;
+    padding-top: 20px;
+    width: 100%;
+    background-color: rgb(33, 33, 61);
+    
+}
+
+#footer > p {
+    color: white;
+    text-align: center;
+}
+
+.list-orm {
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}

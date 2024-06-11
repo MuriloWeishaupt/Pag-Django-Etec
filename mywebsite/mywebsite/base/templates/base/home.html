@@ -1,0 +1,199 @@
+
+{% load static %}
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GARMS</title>
+    <link rel="stylesheet" href="{% static '/css/main.css'%}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav id='nav' class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="heading">
+        <div id="logo">
+            <h2>GARMS</h2>
+            <div id='links'>
+            </div>
+        </div>
+    </div>
+    <div id="master" class="container">
+        <div class="row">
+        <div class="col-md-3">
+            <div class="card card-body" id="profile-wrapper">
+                <img id="profile-pic" src="{% static 'images/guris.jpeg'%}" alt="">
+                <br>
+                <h4>É os gurih, não tem jeito!</h4>
+                <p>A regra é clara, ou corre com nois ou corre de nois</p>
+                <br>
+                <p style="text-align: right;">do Grêmio, Guris - 2023</p>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="card card-body">
+                <h4>Quem são os guris?</h4>
+                <br>
+                <p>Os Guris são um grupo de estudantes do curso de redes de computadores da ETEC de Embu, onde lá, além de estudarem sobre assuntos que seráo de suma importância para suas carreiras, se divertem a beça com altas trapalhadas em seu dia a dia. Uma dessas, está sendo o planejamento de TCC!</p>
+                <br>
+                <p>Em uma entrevista concebida por Murilo Weishaupt (O casado do grupo), a ideia do TCC consiste em criar uma infra com Terraform (Ferramenta que trabalha com IaC) para que assim eles possam criar um monitoramento de rede completo com Zabbix e montar um DashBoard com Grafana que os ajudará a entender o que se passa naquele ambiente. </p>
+
+                <ul class="social-links">
+                    <li><img class="social" src="{% static 'images/facebook.png'%}" alt=""></li>
+                    <li><img class="social" src="{% static 'images/instagram.png'%}" alt=""></li>
+                    <li><a href="https://www.linkedin.com/in/jo%C3%A3oedesouza/details/projects/" target="_blank"><img class="social" src="{% static 'images/linkedin.png'%}" alt=""></li></a>
+                    <li><a href="https://youtu.be/72DtXUH-HFk" target="_blank"><img class="social" src="{% static 'images/youtube.png'%}" alt=""></a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card card-body">
+                <a href="https://www.vmware.com/explore/br/attend" target="_blank">
+                    <h3 id="vmware2023">VMWare 2023</h3>
+                </a>
+                <br>
+                <img id="vmware" src="{% static 'images/vmware.jpeg'%}" alt="foto vmware">
+                <br>
+                <img id="vmware" src="{% static 'images/vmware2.jpeg'%}" alt="foto vmware">
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card card-body">
+                <h3>Como foi? </h3>
+                <br>
+                <p>Durante os dias 18 e 19 de Outubro, tivemos o prazer inestimável de participar do evento VMware Explore São Paulo 2023 que, acreditem, foi um evento muito transformador, de muito aprendizado, muito networking e muito divertido!</p>
+                <p>A VMware não apenas reimaginou, mas também reinventou sua tradicional conferência VMworld, transformando-a no VMware Explore. Neste evento, juntamente com experts de todo o mundo, fomos colocados diretamente no epicentro do universo multi-cloud. Eu fiquei muito feliz quando na abertura do evento no palco principal, Jose Duarte, o Gerente Geral da VMware no Brasil, disse que essa segunda edição, marcava de vez o Brasil como um dos palcos principais aos olhos da VMware.</p>
+                <p>Sem dúvidas, foi uma experiência única!</p>
+                <br>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card card-body">
+                <h3>Redes de Computadores</h3>
+                <br>
+                
+                <p>O curso técnico EM REDES DE COMPUTADORES tem como objetivos capacitar o aluno para: Implantar e planejar de redes de computadores; Realizar manutenção da infraestrutura de redes; Prestar suporte de infraestrutura de redes; Especificar máquinas, ferramentas, acessórios e suprimentos necessários para dimensionar, montar e estruturar uma rede de computadores; Atuar no desenvolvimento de projetos de redes; Gerenciar e dar suporte à servidores; Prestar suporte básico em segurança de redes; Implementar conceitos de segurança em serviços; Realizar o gerenciamento de redes locais e redes de longa distância; Criar Scripts de configuração e gerenciamento de servidores; Gerenciar e configurar dispositivos de redes.
+
+                </p>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div id="etec" class="card card-body">
+                <a class="link-etec" href="https://www.vestibulinhoetec.com.br/home/"><h3>Vestibulinho ETEC!</h3></a>
+                <br>
+                <p>Venha fazer parte de uma das melhores Instituições Técnicas de Embu das Artes e seja um Etequiano!</p>
+                <img  src="{% static 'images/etec.png'%}" alt="">
+                <br>
+                <br>
+                <h4>ETEC - O que é?</h4>
+                <br>
+                <p>A Escola Técnica Estadual (ETEC) é um programa governamental que objetiva a formação de profissões de nível técnico. Logo, se você já terminou ou está terminando o ensino médio, ela surge como opção para buscar melhores condições de vida</p>
+                <p>Mais de 228 mil alunos estão matriculados nas ETECs entre os cursos técnicos, integrados e de nível médio.</p>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="blog">
+        <div class='calabocajoao'>
+            <img class='imgs-python'  src="{% static 'images/logo-python-django.png'%}" alt="">
+            <img class='imgs-python'  src="{% static 'images/bosta.png'%}" alt="">
+            <img id='jomjom' class='imgs-python'  src="{% static 'images/img-joomla.jpg'%}" alt="">
+
+        </div>
+        <br>
+        <h2>Introdução</h2>
+        <br>
+        <p>Nosso trabalho vem a ser uma coletania e explicação de três tecnologias muito interessantes e de suma importância para o mercado de trabalho.   
+        </p>
+        <br>
+        <h2 id='aws'>AWS</h2>
+        <br>
+        <h3>Um pouco de história</h3>
+        <br>    
+        <p>
+            As origens da plataforma datam de 2002, quando os primeiros serviços foram testados em fase beta — na época, o nome dessa estrtutura era Amazon.com Web Service. A ideia era experimentar a comercialização de ferramentas e infraestrutura para desenvolvedores.
+            Lançado oficialmente em 2006, Amazon Web Services é um provedor de serviços online para websites ou aplicações cliente servidor baseado nas nuvens. A maioria destes serviços não é acessível pela internet, mas oferecem funcionalidades que outros desenvolvedores podem usar em suas aplicações. Amazon Web Services pode ser acessado usando HTTP, protocolo REST, estilo de arquitetura ou pelo protocolo SOAP. O modelo de cobrança pelos serviços é de acordo com o uso.
+
+        </p>
+
+        <br>
+        <h2>Principais clientes da AWS</h2>
+        <br>
+        <div class="netflix-nfl-epic-container">
+            <img id='jomjom' class='imgs-python'  src="{% static 'images/netflix-logo.jpg'%}" alt="">
+            <img id='jomjom' class='imgs-python'  src="{% static 'images/nfl-logo.png'%}" alt="">
+            <img id='jomjom' class='imgs-python'  src="{% static 'images/epic-logo.png'%}" alt="">
+        </div>
+        <br>
+        <p><b>Netflix: </b>A AWS permite que o serviço de streaming de conteúdo audiovisual da Netflix seja entregue com qualidade, agilidade e estabilidade, minimizando falhas. A solução da AWS também foi benéfica para o setor de Big Data da Netflix, uma das primeiras a incorporar o cloud computing em suas atividades</p>
+        <br>
+        <p><b>NFL: </b>A AWS foi utilizada para todos os serviços relacionados com a transmissão dos jogos da NFL, promovendo flexibilidade, elasticidade de banda e confiabilidade em todos os jogos, permitindo entregar uma transmissão confiável, estável e segura para 18,4 milhões de fãs de futebol americano no mundo todo</p>
+        <br>
+        <p><b>Epic Games: </b>A Epic Games, desenvolvedora do Fortnite, tem uma parceria estreita com a Amazon Web Services (AWS). A empresa utiliza serviços da AWS, como o Amazon EC2, para fornecer infraestrutura escalável e elástica para atender às demandas constantes do jogo. Além disso, a Epic Games utiliza a AWS para melhorar os resultados de negócios, reduzir custos operacionais e oferecer suporte a picos de uso mais de 10 vezes maiores do que o normal.</p>
+        <br>
+        <h2>AWS x Outras Clouds</h2>
+        <br>
+        <h4>Vantagens</h4>
+        <ul>
+            <li>primeiro item</li>
+            <li>segundo item</li>
+            <li>terceiro item</li>
+          </ul>
+          
+            <p>Fornece a maioria dos serviços, desde redes até robôs</p>
+            <p>Mais maduro</p>
+            <p>Considerado o melhor em confiabilidade e segurança</p>
+            <p>Mais capacidade computacional que Azure e GCP</p>
+
+    </div>
+    </div>
+</body>
+</html>

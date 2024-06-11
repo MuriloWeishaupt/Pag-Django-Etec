@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(180deg, hsla(220, 100%, 50%, 1) 0%, hsla(212, 82%, 69%, 1) 100%);
+}
+
+#nav {
+    background-color: rgb(25, 25, 175);
+}
+
+.heading {
+    background-color: rgb(25, 25, 175);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.links {
+    text-align: left;
+    margin-right: 20px;
+}
+
+#master {
+    margin-top: 30px;
+}
+
+#profile-wrapper {
+    text-align: center;
+}
+
+.social-links ul, li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.social {
+    width: 40px;
+    height: 40px;
+}
+
+
+#profile-pic {
+    width: 230px;
+    height: 120px;
+    border-radius: 2%;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#vmware2023 {
+    text-decoration: none;
+    color: blue;
+    
+}
+
+.link-etec {
+    text-decoration: none;
+    color: purple;
+}
+
+#vmware {
+    border: 2px solid blue;
+    margin: auto;
+    width: 290px;
+    height: 180px;
+}
+
+.blog {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 70px;
+    background-color: rgba(14, 40, 187, 0.767);
+    margin: 30px;
+    text-align: left;
+    color: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.calabocajoao {
+    text-align: center;
+}
+
+.imgs-python {
+
+    display: inline-block;
+    width: 200px;
+    
+}
+
+#jomjom {
+    border-radius: 20px;
+}
+
+#aws {
+    color: rgb(255, 153, 0);
+}
+
+.aws-saas {
+    width: 100px;
+}
+
+.netflix-nfl-epic-container {
+    background-color: gray;
+}
